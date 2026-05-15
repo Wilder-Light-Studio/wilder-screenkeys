@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Docs &mdash; Wilder Screen Keys</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" type="image/png" href="assets/img/wilder-screenkeys-logo.png">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="./">Wilder Screen Keys</a>
+    <nav aria-label="Primary">
+      <a href="./">Home</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="docs.html">Docs</a>
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>Documentation</h1>
+  <p class="tagline">Install, use, and troubleshoot Wilder Screen Keys.</p>
+
+  <nav aria-label="On this page">
+    <ul>
+      <li><a href="#install">Install</a></li>
+      <li><a href="#first-run">First run</a></li>
+      <li><a href="#using">Using it day to day</a></li>
+      <li><a href="#settings">Settings</a></li>
+      <li><a href="#troubleshoot">Troubleshooting</a></li>
+      <li><a href="#uninstall">Uninstall</a></li>
+    </ul>
+  </nav>
+
+  <h2 id="install">Install</h2>
+  <ol>
+    <li>Go to <a href="pricing.html">Pricing</a> and pick the edition you need.</li>
+    <li>Complete checkout (or request the Gift Edition). You&rsquo;ll receive a license key by email.</li>
+    <li>Download the installer from the link in your email.</li>
+    <li>Run the installer. You&rsquo;ll be asked to allow administrator access &mdash; this is required because the app installs a global keyboard hook so that arrow keys can move the cursor system-wide.</li>
+    <li>When the app launches, click the tray icon, open <strong>Settings</strong>, and paste your license key.</li>
+  </ol>
+  <div class="notice">
+    <p><strong>System requirements.</strong> Windows 10 (build 1809 or later) or Windows 11, 64-bit. Around 15&nbsp;MB of disk space and under 50&nbsp;MB of RAM.</p>
+  </div>
+
+  <h2 id="first-run">First run</h2>
+  <ol>
+    <li>Look for the green tray icon in the system tray (the small icons near the clock). If you don&rsquo;t see it, click the upward-arrow on the taskbar to see hidden icons.</li>
+    <li>Press <kbd>Caps Lock</kbd>. The icon turns green &mdash; the app is now active.</li>
+    <li>Hold the <kbd>&rarr;</kbd> arrow key. Your cursor moves smoothly to the right.</li>
+    <li>Tap <kbd>Space</kbd>. That&rsquo;s a left click.</li>
+    <li>Press <kbd>Caps Lock</kbd> again to switch off. Your keyboard returns to normal.</li>
+  </ol>
+
+  <h2 id="using">Using it day to day</h2>
+  <table>
+    <thead><tr><th>Action</th><th>Key</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Toggle on / off</td><td><kbd>Caps Lock</kbd></td><td>Tray icon turns green when active, grey when inactive.</td></tr>
+      <tr><td>Move cursor</td><td><kbd>&uarr;</kbd> <kbd>&darr;</kbd> <kbd>&larr;</kbd> <kbd>&rarr;</kbd></td><td>Hold two arrows for diagonal movement.</td></tr>
+      <tr><td>Left click</td><td><kbd>Space</kbd></td><td>Tap (press and release quickly).</td></tr>
+      <tr><td>Right click</td><td><kbd>Space</kbd> &times; 2</td><td>Double-tap within 500&nbsp;ms.</td></tr>
+      <tr><td>Precision mode</td><td>Hold <kbd>Space</kbd></td><td>Cursor slows to a quarter speed while held.</td></tr>
+      <tr><td>Move &mdash; left hand cluster</td><td><kbd>E</kbd>&nbsp;up &nbsp;<kbd>S</kbd>&nbsp;left &nbsp;<kbd>D</kbd>&nbsp;down &nbsp;<kbd>F</kbd>&nbsp;right</td><td>Enable &ldquo;Home Left&rdquo; in Settings.</td></tr>
+      <tr><td>Move &mdash; right hand cluster</td><td><kbd>I</kbd>&nbsp;up &nbsp;<kbd>J</kbd>&nbsp;left &nbsp;<kbd>K</kbd>&nbsp;down &nbsp;<kbd>L</kbd>&nbsp;right</td><td>Enable &ldquo;Home Right&rdquo; in Settings.</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="settings">Settings</h2>
+  <p>Right-click the tray icon and choose <strong>Settings</strong>. You can adjust:</p>
+  <ul>
+    <li><strong>Cursor speed</strong> &mdash; how fast the cursor moves when you hold an arrow.</li>
+    <li><strong>Precision multiplier</strong> &mdash; how much slower the cursor goes in precision mode.</li>
+    <li><strong>Double-click window</strong> &mdash; how long you have between spacebar taps for a right click.</li>
+    <li><strong>Hold threshold</strong> &mdash; how long you need to hold the spacebar before precision mode kicks in.</li>
+    <li><strong>Easing</strong> &mdash; how smoothly the cursor accelerates and decelerates.</li>
+    <li><strong>Frame rate target</strong> &mdash; 60 or 120&nbsp;FPS.</li>
+    <li><strong>Auto-start on login</strong>, <strong>start enabled</strong>, and a few similar quality-of-life toggles.</li>
+  </ul>
+
+  <h2 id="troubleshoot">Troubleshooting</h2>
+  <table>
+    <thead><tr><th>Problem</th><th>Try this</th></tr></thead>
+    <tbody>
+      <tr><td>Caps Lock doesn&rsquo;t toggle the app</td><td>Quit and relaunch as administrator. The keyboard hook needs admin to install on first run.</td></tr>
+      <tr><td>Arrow keys do nothing</td><td>Confirm the tray icon is <em>green</em>. Press <kbd>Caps Lock</kbd> if it&rsquo;s grey.</td></tr>
+      <tr><td><kbd>Ctrl</kbd> shortcuts don&rsquo;t work</td><td>Hold <kbd>Ctrl</kbd> first to pause the app, then press the shortcut.</td></tr>
+      <tr><td>Cursor feels laggy</td><td>Lower the cursor speed, or set frame rate target to 120&nbsp;FPS if your monitor supports it.</td></tr>
+      <tr><td>Right-click misfires</td><td>Increase the double-click window in Settings.</td></tr>
+      <tr><td>Accidentally entering precision mode</td><td>Increase the hold threshold to 300&ndash;500&nbsp;ms.</td></tr>
+      <tr><td>App crashes at startup</td><td>Delete <code>%APPDATA%\Wilder\ScreenKeys\</code> and relaunch. Email us if it persists.</td></tr>
+    </tbody>
+  </table>
+  <p>Still stuck? Email <a href="mailto:teamwilder@wildercode.org">teamwilder@wildercode.org</a> with your Windows version, what you tried, and what happened.</p>
+
+  <h2 id="uninstall">Uninstall</h2>
+  <p>Open <strong>Settings &rarr; Apps &rarr; Installed apps</strong>, search for &ldquo;Wilder Screen Keys,&rdquo; and uninstall. To remove your saved settings too, delete <code>%APPDATA%\Wilder\ScreenKeys\</code>.</p>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>&copy; 2026 Wilder Light Studio</span>
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="refund.html">Refunds</a>
+    <a href="license.html">License</a>
+    <a href="mailto:teamwilder@wildercode.org">Contact</a>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,72 @@
+Wilder Product License 1.0
+
+Copyright (c) 2026 Wilder Light Studio
+
+This license governs the use of Wilder ScreenKeys software and implements a source-available, trust-first, offline-only licensing model.
+
+## 1. Source-Available, Not Open Source
+
+Users may read, learn from, and adapt the source code for private use. The following activities are prohibited unless explicitly licensed:
+
+- Redistribution of the software or derivatives
+- Creating forks of the software
+- SaaS wrapping or hosting as a service
+- Infrastructure use without commercial license
+- Production use without appropriate license
+
+## 2. License Categories
+
+### Personal Use
+Requires a paid license. Individuals using the software privately and non-commercially must purchase a personal license.
+
+### Commercial Use
+Requires a negotiated commercial license from Wilder Light Studio. Pricing is determined on a case-by-case basis. See README.md in this repository for current contact information.
+
+### Gift License
+Free for individuals and organizations in need. Granted at the author's discretion without qualification or proof required.
+
+### Creative Output Exception
+Users own all creative works produced using the software. No additional license fees apply to creative output, regardless of commercial use.
+
+### Restricted Use
+Evaluation, testing, academic study, and non-production experimentation are permitted without payment.
+
+## 3. Trust-First Architecture
+
+This software implements a trust-first licensing model:
+
+- No telemetry, tracking, or network calls
+- Offline-only license verification
+- No runtime policing, pattern analysis, or behavioral classification
+- The license system deactivates after verification
+- Single interaction verification model
+
+## 4. Author Rights
+
+The author reserves these rights:
+
+- The right to deny use to extractive actors
+- The right to charge for commercial and personal use
+- The right to grant refunds at their discretion
+- The right to determine gift license recipients
+- The right to modify licensing terms for future releases
+
+## 5. User Rights
+
+Users retain these rights:
+
+- Full ownership of all creative output
+- The right to adapt the software privately
+- The right to use the software according to licensed category
+- The right to privacy and no surveillance
+
+## 6. Limitations
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+For project-specific license information, see README.md in this repository.
+For package metadata, see wilder_screen_keys.nimble.
