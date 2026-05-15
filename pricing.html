@@ -4,14 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Pricing &mdash; Wilder Screen Keys</title>
-<meta name="description" content="Wilder Screen Keys is sold in two editions: a paid Personal Edition and a free Gift Edition for anyone who genuinely cannot afford it.">
+<meta name="description" content="Wilder Screen Keys is $19 USD, once. Or free — no proof required — for anyone who genuinely cannot afford it.">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="icon" type="image/png" href="assets/img/wilder-screenkeys-logo.png">
 </head>
 <body>
+
 <header class="site">
   <div class="wrap">
-    <a class="brand" href="./">Wilder Screen Keys</a>
+    <a class="brand" href="./">
+      <img src="assets/img/wilder-logo.svg" alt="" class="brand-logo">
+      Wilder Screen Keys
+    </a>
     <nav aria-label="Primary">
       <a href="./">Home</a>
       <a href="pricing.html">Pricing</a>
@@ -22,63 +26,110 @@
   </div>
 </header>
 
-<main class="wrap">
-  <h1>Pricing</h1>
-  <p class="tagline">Two editions. Same software. Different price for different lives.</p>
-
-  <div class="cards">
-    <section class="card" aria-labelledby="personal">
-      <h3 id="personal">Personal Edition</h3>
-      <p class="price">$19 <span class="unit">USD &middot; one-time</span></p>
-      <p>For individuals who can afford to support the work.</p>
-      <ul>
-        <li>Perpetual license &mdash; yours to keep.</li>
-        <li>All version 1.x updates included.</li>
-        <li>Install on as many of your own computers as you need &mdash; no seat limit.</li>
-        <li>Email support from the developer.</li>
-        <li>Funds further development and the Gift Edition.</li>
-      </ul>
-      <p><a class="btn" href="https://wildercode.lemonsqueezy.com/" rel="noopener">Buy Personal Edition</a></p>
-      <p class="muted">Checkout and delivery handled by Lemon Squeezy. You receive a license key by email immediately after purchase.</p>
-    </section>
-
-    <section class="card" aria-labelledby="gift">
-      <h3 id="gift">Gift Edition</h3>
-      <p class="price">Free <span class="unit">if you need it</span></p>
-      <p>If you live with chronic pain or limited mobility and cannot afford the Personal Edition, this is for you. No proof, no application, no questions.</p>
-      <div class="notice">
-        <p><strong>A note on the gift.</strong> Payment is the expected and ordinary way to receive this software. If you can pay, please do &mdash; your purchase pays for the time it takes to build this and to keep the Gift Edition free for someone who cannot. If you genuinely cannot afford it, please accept the Gift Edition with our blessing. It is fully licensed, fully supported, and identical to the Personal Edition.</p>
-      </div>
-      <ul>
-        <li>Identical software to the Personal Edition.</li>
-        <li>Perpetual license &mdash; yours to keep.</li>
-        <li>All version 1.x updates included.</li>
-        <li>Email support from the developer.</li>
-      </ul>
-      <p><a class="btn" href="https://wildercode.lemonsqueezy.com/" rel="noopener">Request the Gift Edition</a></p>
-    </section>
+<!-- ===== HERO BANNER ===== -->
+<section class="hero-sub">
+  <div class="wrap" style="padding-top:0;padding-bottom:0;">
+    <h1>Simple, honest pricing.</h1>
+    <p>One price. Yours forever. Or free, if you need it to be.</p>
   </div>
+</section>
 
-  <h2>Commercial use</h2>
-  <p>Businesses, organizations, and SaaS providers require a separate commercial license. Pricing is negotiated case-by-case. Email <a href="mailto:teamwilder@wildercode.org">teamwilder@wildercode.org</a> with a short description of how you intend to use the software.</p>
+<!-- ===== PRICING GRID ===== -->
+<section>
+  <div class="wrap">
+    <div class="pricing-grid">
 
-  <h2>Frequently asked</h2>
+      <!-- Personal Edition -->
+      <div class="pricing-card" aria-labelledby="personal-heading">
+        <span class="badge">One-time purchase</span>
+        <h2 id="personal-heading">Personal Edition</h2>
+        <div class="price-display"><span class="currency">$</span>19</div>
+        <p class="price-sub">Pay once. Use forever. All 1.x updates included.</p>
+        <ul class="feature-list">
+          <li>Full cursor control &mdash; arrow keys, spacebar, precision mode</li>
+          <li>Home row clusters (ESDF / IJKL)</li>
+          <li>Configurable speed, easing, click timing</li>
+          <li>All future 1.x updates</li>
+          <li>No seat limit for personal use across your own computers</li>
+          <li>Email support</li>
+          <li>14-day no-questions refund</li>
+        </ul>
+        <a class="btn" href="#">Buy Personal Edition &rarr;</a>
+        <p class="muted" style="font-size:0.85rem;margin-top:0.75rem;">Checkout handled by Lemon Squeezy. License key delivered by email immediately after purchase.</p>
+      </div>
 
-  <h3>Is the Gift Edition really free?</h3>
-  <p>Yes. It is the same software with the same license terms. The only difference is that no payment is required.</p>
+      <!-- Gift Edition -->
+      <div class="pricing-card featured" aria-labelledby="gift-heading">
+        <span class="badge green">Free &middot; No proof required</span>
+        <h2 id="gift-heading">Gift Edition</h2>
+        <div class="price-display">Free</div>
+        <p class="price-sub">For anyone who genuinely cannot afford the Personal Edition.</p>
+        <p style="font-size:0.95rem;color:var(--text-muted);margin-bottom:1rem;">If money is tight &mdash; disability, unemployment, student life, caring responsibilities &mdash; the Gift Edition is yours. We ask only that you don&rsquo;t resell or redistribute it.</p>
+        <ul class="feature-list">
+          <li>Full cursor control &mdash; arrow keys, spacebar, precision mode</li>
+          <li>Home row clusters (ESDF / IJKL)</li>
+          <li>Configurable speed, easing, click timing</li>
+          <li>All future 1.x updates</li>
+          <li>No seat limit for personal use across your own computers</li>
+          <li>Email support</li>
+          <li>14-day no-questions refund</li>
+        </ul>
+        <a class="btn secondary" href="mailto:teamwilder@wildercode.org?subject=Gift%20Edition%20Request">Request Gift Edition &rarr;</a>
+      </div>
 
-  <h3>Can I share my license key?</h3>
-  <p>The license is yours personally &mdash; install it on all your own machines. It is not transferable to other people. If a family member or colleague needs it, they should get their own copy or request the Gift Edition.</p>
+    </div>
+  </div>
+</section>
 
-  <h3>Do you offer refunds?</h3>
-  <p>Yes &mdash; see the <a href="refund.html">refund policy</a>.</p>
+<!-- ===== FAQ ===== -->
+<section>
+  <div class="wrap">
+    <h2>Questions</h2>
 
-  <h3>What payment methods do you accept?</h3>
-  <p>All major credit and debit cards, plus Apple Pay, Google Pay, and PayPal where available. Payments are processed by Lemon Squeezy; we never see or store your card details.</p>
+    <details>
+      <summary>Is this a subscription?</summary>
+      <div class="faq-body">
+        <p>No. You pay once and own it. There are no recurring charges and no renewal fees.</p>
+      </div>
+    </details>
 
-  <h3>Will there be a subscription?</h3>
-  <p>No. The Personal Edition is a one-time purchase, and that is the only paid model we plan to offer.</p>
-</main>
+    <details>
+      <summary>What does &ldquo;all 1.x updates&rdquo; mean?</summary>
+      <div class="faq-body">
+        <p>Any release with a version number starting with 1 &mdash; bug fixes, new features, Windows compatibility updates &mdash; is included. If there&rsquo;s ever a paid 2.0, you&rsquo;d decide whether to upgrade.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Can I use it on more than one computer?</summary>
+      <div class="faq-body">
+        <p>Yes. The license covers any computers you personally own or control. It&rsquo;s not a seat count.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How does the Gift Edition work?</summary>
+      <div class="faq-body">
+        <p>Email us. We&rsquo;ll send you a license key. No forms, no proof, no judgment.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>What if I want a refund?</summary>
+      <div class="faq-body">
+        <p>14 days, no questions. Email <a href="mailto:teamwilder@wildercode.org">teamwilder@wildercode.org</a>.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Is my payment secure?</summary>
+      <div class="faq-body">
+        <p>Payments are handled by Lemon Squeezy, a merchant of record. We never see your card details.</p>
+      </div>
+    </details>
+
+  </div>
+</section>
 
 <footer class="site">
   <div class="wrap">
@@ -90,5 +141,6 @@
     <a href="mailto:teamwilder@wildercode.org">Contact</a>
   </div>
 </footer>
+
 </body>
 </html>
