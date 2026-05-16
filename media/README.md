@@ -16,6 +16,6 @@ Marketing and review-related media for Wilder Screen Keys.
 4. Tap <kbd>Space</kbd> to left-click a link, then back.
 5. Hold <kbd>Space</kbd> to enter precision mode, place the cursor on a small target.
 6. Double-tap <kbd>Space</kbd> for a right-click context menu.
-7. Hold <kbd>Ctrl</kbd>, press <kbd>Ctrl+S</kbd>, demonstrate that normal shortcuts still work.
-8. Press <kbd>Caps Lock</kbd> again &mdash; back to normal.
+7. Press <kbd>Caps Lock</kbd> again &mdash; keyboard returns to normal; type a few characters to show it.
+8. Toggle back on; open the Settings panel from the tray to show configurability.
 9. End on the logo with the tagline and the website URL.
